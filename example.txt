@@ -1,0 +1,38 @@
+{
+	name: "Dla słuchaczy",
+	author: "Mor W.A.",
+	links: [
+		{
+			url: "https://music.youtube.com/watch?v=f-XYkH74Js4&list=RDCLAK5uy_lV2-eH6KyJD2DH1BFcwnmiZzpRnbkhUqk",
+			offset: 0
+		},
+		{
+			url: "https://www.youtube.com/watch?v=3n5O3DCKDd0",
+			offset: 23
+		}
+	],
+	text: [
+		{
+			1: "To",
+			30: "Dla",
+			40: "Słuchaczy,"
+		},
+		{
+			60: "a",
+			65: "kiedyś",
+			75: "tylko",
+			90: "dla",
+			110: "najbliższych"
+		},
+		{
+
+		},
+		{
+
+		}
+	]
+}
+
+To dla słuchaczy, a kiedyś tylko dla najbliższych, Jak zaczynałem nie myślałem, że się kiedyś ziści, Chociaż ułamek moich wizji, nie przepuszczałem, Że ktoś podchwyci i moje słowa będzie znał na pamięć, Że przed publiką stanę z nią ramię w ramię I będę w stanie, przykuć uwagę nie tylko moich braci, To dla słuchaczy jest, to dla słuchaczy Bo dzięki nim każdy rym, nie idzie próżnie A interpretowany różnie ma znaczenie swoje i swój cel Żebym na scenie później, powtórzę wiem, Że oni wiedzą, że ja tu jestem dla nich, Nie dla tych, którzy przy stolikach siedzą I obserwują sfrustrowani, nie doceniając naszej pracy, To dla słuchaczy jest, to dla słuchaczy Którzy przychodzą na koncerty w całym kraju, Którzy nas znają i szanują za muzykę, której słuchają W zamian energię dając, tworząc publikę doskonałą, Dzięki której mamy jeszcze większą motywację, Żeby współtworzyć tę kulturę, za to szacunek To wiele dla nas znaczy, to dla słuchaczy.
+
+Tekst pochodzi z https://www.tekstowo.pl/piosenka,mor_w_a_,dla_sluchaczy.html
