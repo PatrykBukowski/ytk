@@ -5,6 +5,33 @@ const textTimer = [];
 
 /* I będę w stanie, przykuć uwagę nie tylko moich braci, To dla słuchaczy jest, to dla słuchaczy Bo dzięki nim każdy rym, nie idzie próżnie A interpretowany różnie ma znaczenie swoje i swój cel Żebym na scenie później, powtórzę wiem, Że oni wiedzą, że ja tu jestem dla nich, Nie dla tych, którzy przy stolikach siedzą I obserwują sfrustrowani, nie doceniając naszej pracy, To dla słuchaczy jest, to dla słuchaczy Którzy przychodzą na koncerty w całym kraju, Którzy nas znają i szanują za muzykę, której słuchają W zamian energię dając, tworząc publikę doskonałą, Dzięki której mamy jeszcze większą motywację, Żeby współtworzyć tę kulturę, za to szacunek To wiele dla nas znaczy, to dla słuchaczy. */
 
+
+const getData = async () => {
+	try {
+
+		return JSON.parse(await (await fetch("https://raw.githubusercontent.com/PatrykBukowski/ytk/main/database.json")).text());
+
+	} catch (error) {
+		return null;
+	}
+}
+
+const findData = async () => {
+	try {
+
+		const data = await getData();
+
+		console.log(data);
+
+	} catch (error) {
+
+	}
+}
+
+findData();
+
+
+
 const createText = () => {
 	const json = {
 		name: "Dla słuchaczy",

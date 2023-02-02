@@ -1,79 +1,95 @@
-[
-	{
-		"name": "Dla słuchaczy",
-		"author": "Mor W.A.",
-		"links": [
-			{
-				"url": "f-XYkH74Js4&list=RDCLAK5uy_lV2-eH6KyJD2DH1BFcwnmiZzpRnbkhUqk",
-				"offset": 0
-			},
-			{
-				"url": "3n5O3DCKDd0",
-				"offset": 23
-			}
-		],
-		"text": [
-			[
+{
+	"name": "Super solid database",
+	"records": [
+		{
+			"name": "Dla słuchaczy",
+			"author": "Mor W.A.",
+			"links": [
 				{
-					"stamp": 3.794563, "value": "To"
+					"url": "f-XYkH74Js4&list=RDCLAK5uy_lV2-eH6KyJD2DH1BFcwnmiZzpRnbkhUqk",
+					"offset": 0
 				},
 				{
-					"stamp": 3.95, "value": "dla "
-				},
-				{
-					"stamp": 4.20, "value": "słuchaczy"
-				},
-			],
-			[
-				{
-					"stamp": 4.786291, "value": "A kiedyś tylko dla najbliższych"
+					"url": "3n5O3DCKDd0",
+					"offset": 23
 				}
 			],
-			[
-				{
-					"stamp": 6.526633, "value": "Jak zaczynałem"
-				}
-			],
-			[
-				{
-					"stamp": 7.0, "value": "nie myślałem"
-				}
-			],
-			[
-				{
-					"stamp": 7.832552, "value": "że się kiedyś ziści"
-				}
-			],
-			[
-				{
-					"stamp": 8.811793, "value": "Chociaż ułamek moich wizji"
-				}
-			],
-			[
-				{
-					"stamp": 10.300044, "value": "nie przepuszczałem"
-				}
-			],
-			[
-				{
-					"stamp": 11.158383, "value": "Że ktoś podchwyci i"
-				}
-			],
-			[
-				{
-					"stamp": 12.056699, "value": "moje słowa będzie znał na pamięć"
-				}
-			],
-			[
-				{
-					"stamp": 13.603092, "value": "Że przed publiką stanę"
-				}
-			],
-			[
-				{
-					"stamp": 14.383201, "value": "z nią ramię w ramię"
-				}
-			],
-		]
-	}
-]
+			"text": [
+				[
+					{
+						"stamp": 3.794563,
+						"value": "To"
+					},
+					{
+						"stamp": 3.95,
+						"value": "dla "
+					},
+					{
+						"stamp": 4.20,
+						"value": "słuchaczy"
+					},
+				],
+				[
+					{
+						"stamp": 4.786291,
+						"value": "A kiedyś tylko dla najbliższych"
+					}
+				],
+				[
+					{
+						"stamp": 6.526633,
+						"value": "Jak zaczynałem"
+					}
+				],
+				[
+					{
+						"stamp": 7.0,
+						"value": "nie myślałem"
+					}
+				],
+				[
+					{
+						"stamp": 7.832552,
+						"value": "że się kiedyś ziści"
+					}
+				],
+				[
+					{
+						"stamp": 8.811793,
+						"value": "Chociaż ułamek moich wizji"
+					}
+				],
+				[
+					{
+						"stamp": 10.300044,
+						"value": "nie przepuszczałem"
+					}
+				],
+				[
+					{
+						"stamp": 11.158383,
+						"value": "Że ktoś podchwyci i"
+					}
+				],
+				[
+					{
+						"stamp": 12.056699,
+						"value": "moje słowa będzie znał na pamięć"
+					}
+				],
+				[
+					{
+						"stamp": 13.603092,
+						"value": "Że przed publiką stanę"
+					}
+				],
+				[
+					{
+						"stamp": 14.383201,
+						"value": "z nią ramię w ramię"
+					}
+				],
+			]
+		}
+	]
+}
