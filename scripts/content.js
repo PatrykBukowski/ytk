@@ -139,15 +139,21 @@ const choose = (e) => {
 	try {
 		const stamp = e.target.currentTime + offset;
 		for (let i = 0; i < scrollTimer.length; i++) {
-			if ((scrollTimer[i] <= stamp && scrollTimer[i + 1] > stamp) || (i == scrollTimer.length - 1 && scrollTimer[i] <= stamp))
+			if (
+				(scrollTimer[i] <= stamp && scrollTimer[i + 1] > stamp) ||
+				(i == scrollTimer.length - 1 && scrollTimer[i] <= stamp)
+			)
 				slider.style.translate = `0% -${i}em`;
 		}
 
 		for (let i = 0; i < elements.length; i++) {
-			if ((i == elements.length - 1 && elements[i].dataset.time <= stamp) || (elements[i].dataset.time <= stamp && elements[i + 1].dataset.time > stamp))
+			if (
+				(i == elements.length - 1 && elements[i].dataset.time <= stamp) ||
+				(elements[i].dataset.time <= stamp && elements[i + 1].dataset.time > stamp)
+			)
 				elements[i].style.color = `white`;
 			else
-				elements[i].style.color = 'gray';
+				elements[i].style.color = `gray`;
 		}
 	} catch (error) {
 		console.error(error);
@@ -155,9 +161,7 @@ const choose = (e) => {
 }
 
 addEventListener("load", (event) => {
-	var vid = document.querySelector('video');
+	var vid = document.querySelector(`video`);
 
-	vid.addEventListener('timeupdate', e => choose(e));
+	vid.addEventListener(`timeupdate`, e => choose(e));
 });
-
-
