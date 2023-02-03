@@ -9,10 +9,12 @@ const textTimer = [];
 const getData = async () => {
 	try {
 
-		return JSON.parse(await (await fetch("https://raw.githubusercontent.com/PatrykBukowski/ytk/main/database.json")).text());
+		return await fetch("https://raw.githubusercontent.com/PatrykBukowski/ytk/main/database.json");
 
 	} catch (error) {
+
 		return null;
+
 	}
 }
 
